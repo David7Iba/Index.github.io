@@ -1,0 +1,134 @@
+/*_________________________________todo el body_________________________________*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*______________________________________Body________________________________________*/
+body{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+/*_________________________________________hearder__________________________________________*/
+
+header{
+  background: #FFA420;
+  padding: 10px;
+  
+}
+
+/*__________________________________________________botones nav________________________________________*/
+#Botones  {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 30px 0;
+    color: #FFA420;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.4s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    left: 20%;
+  }
+
+#Botones:hover{
+    background: #FFA420;
+    color: #000000;
+    box-shadow: 0 0 5px #FFA420,
+                0 0 25px #FFA420,
+                0 0 50px #FFA420,
+                0 0 200px #FFA420;
+     
+}
+
+
+/*______________________________________________section________________________________________*/
+.SobreMi{
+    width: 500px;
+    padding: 0px;
+    margin: 100px;
+    height: 300px;
+}
+
+h3 {
+    font-size:larger;
+    font-family:monospace;
+    margin: 15px;
+}
+
+
+
+img   {
+    height: auto;
+    width: auto;
+    max-height: 400px;
+    max-width: 400px;
+    position: absolute;
+    left: 65%;
+    top:60%;
+    transform: translate(-20%, -55%);
+    box-shadow: 3px 3px 25px #000000;
+}
+
+section{
+  padding: 15px;
+}
+/*____________________________________________________footer________________________________________________*/
+footer{
+  background-color: #000000;
+  padding: 3%;
+  
+  
+}
+
+footer h4{
+  color: #808080;
+  font-family:monospace;
+
+  
+}
+footer  a{
+ 
+  color: #ffffff;
+  font-family:monospace;
+  list-style: none;
+  float: left;
+}
+footer a:hover{
+  color: #FFA420 ;
+
+}
+
+  
+
+#TF{
+    margin: 0px 300px;
+    position: relative;
+    color: #FFA420;
+    font-family:monospace;
+    
+   
+   
+    
+}
+
+
+
+
+
+/*_________________________________________parrafos_______________________________________*/
+p{
+  font-family:monospace;
+}
+
+
+
+
+/*__________________________________________titulos____________________________________________*/
